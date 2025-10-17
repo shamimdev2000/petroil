@@ -53,7 +53,7 @@ const Navbar = () => {
                 {
                     show ? 
                     <ImCross className='text-2xl text-white' onClick = {()=> setShow (!show) }/> :
-                     <FaBars className='text-2xl text-white'  onClick = {()=> setShow (!show) }/>
+                     <FaBars className='text-2xl text-white '  onClick = {()=> setShow (!show) }/>
                 }
                
             </div>
